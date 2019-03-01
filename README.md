@@ -46,8 +46,7 @@ for($i=1; $i -le 100; $i++){Invoke-WebRequest -Uri https://<<api gateway path>>/
 
 Verify, that CognitoIdentityServiceProvider.listUsers from aws-sdk cognito api will return only 60 records (users) 
 ```powershell
-Invoke-WebRequest -Uri https://<<api gateway path>>/Prod/list-users -
-Method GET
+Invoke-WebRequest -Uri https://<<api gateway path>>/Prod/list-users -Method GET
 ```
 
 
